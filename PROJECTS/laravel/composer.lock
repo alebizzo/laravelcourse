@@ -594,7 +594,101 @@
                 "proxy",
                 "trusted proxy"
             ],
+<<<<<<< HEAD
             "time": "2020-02-22T01:51:47+00:00"
+=======
+            "time": "2019-12-20T13:11:11+00:00"
+        },
+        {
+            "name": "jakub-onderka/php-console-color",
+            "version": "v0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JakubOnderka/PHP-Console-Color.git",
+                "reference": "d5deaecff52a0d61ccb613bb3804088da0307191"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Color/zipball/d5deaecff52a0d61ccb613bb3804088da0307191",
+                "reference": "d5deaecff52a0d61ccb613bb3804088da0307191",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-code-style": "1.0",
+                "jakub-onderka/php-parallel-lint": "1.0",
+                "jakub-onderka/php-var-dump-check": "0.*",
+                "phpunit/phpunit": "~4.3",
+                "squizlabs/php_codesniffer": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JakubOnderka\\PhpConsoleColor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Onderka",
+                    "email": "jakub.onderka@gmail.com"
+                }
+            ],
+            "abandoned": "php-parallel-lint/php-console-color",
+            "time": "2018-09-29T17:23:10+00:00"
+        },
+        {
+            "name": "jakub-onderka/php-console-highlighter",
+            "version": "v0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter.git",
+                "reference": "9f7a229a69d52506914b4bc61bfdb199d90c5547"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JakubOnderka/PHP-Console-Highlighter/zipball/9f7a229a69d52506914b4bc61bfdb199d90c5547",
+                "reference": "9f7a229a69d52506914b4bc61bfdb199d90c5547",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "jakub-onderka/php-console-color": "~0.2",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "jakub-onderka/php-code-style": "~1.0",
+                "jakub-onderka/php-parallel-lint": "~1.0",
+                "jakub-onderka/php-var-dump-check": "~0.1",
+                "phpunit/phpunit": "~4.0",
+                "squizlabs/php_codesniffer": "~1.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JakubOnderka\\PhpConsoleHighlighter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Onderka",
+                    "email": "acci@acci.cz",
+                    "homepage": "http://www.acci.cz/"
+                }
+            ],
+            "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
+            "time": "2018-09-29T18:48:56+00:00"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
         },
         {
             "name": "laravel/framework",
@@ -931,7 +1025,77 @@
                 "md",
                 "parser"
             ],
+<<<<<<< HEAD
             "time": "2020-05-04T22:15:21+00:00"
+=======
+            "time": "2020-02-08T23:42:03+00:00"
+        },
+        {
+            "name": "league/commonmark-ext-table",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark-ext-table.git",
+                "reference": "3228888ea69636e855efcf6636ff8e6316933fe7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark-ext-table/zipball/3228888ea69636e855efcf6636ff8e6316933fe7",
+                "reference": "3228888ea69636e855efcf6636ff8e6316933fe7",
+                "shasum": ""
+            },
+            "require": {
+                "league/commonmark": "~0.19.3|^1.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "phpstan/phpstan": "~0.11",
+                "phpunit/phpunit": "^7.0|^8.0",
+                "symfony/var-dumper": "^4.0",
+                "vimeo/psalm": "^3.0"
+            },
+            "type": "commonmark-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\CommonMark\\Ext\\Table\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Hasoň",
+                    "email": "martin.hason@gmail.com"
+                },
+                {
+                    "name": "Webuni s.r.o.",
+                    "homepage": "https://www.webuni.cz"
+                },
+                {
+                    "name": "Colin O'Dell",
+                    "email": "colinodell@gmail.com",
+                    "homepage": "https://www.colinodell.com"
+                }
+            ],
+            "description": "Table extension for league/commonmark",
+            "homepage": "https://github.com/thephpleague/commonmark-ext-table",
+            "keywords": [
+                "commonmark",
+                "extension",
+                "markdown",
+                "table"
+            ],
+            "abandoned": "league/commonmark",
+            "time": "2019-09-26T13:28:33+00:00"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
         },
         {
             "name": "league/flysystem",
@@ -2170,6 +2334,9 @@
         {
             "name": "symfony/http-foundation",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
             "version": "v4.4.8",
             "source": {
                 "type": "git",
@@ -2222,10 +2389,14 @@
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-04-18T20:40:08+00:00"
 =======
             "time": "2020-03-30T14:07:33+00:00"
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+            "time": "2020-04-18T20:40:08+00:00"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
         },
         {
             "name": "symfony/http-kernel",
@@ -2320,6 +2491,9 @@
         {
             "name": "symfony/mime",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
             "version": "v5.0.8",
             "source": {
                 "type": "git",
@@ -2330,6 +2504,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/5d6c81c39225a750f3f43bee15f03093fb9aaa0b",
                 "reference": "5d6c81c39225a750f3f43bee15f03093fb9aaa0b",
+<<<<<<< HEAD
 =======
             "version": "v5.0.7",
             "source": {
@@ -2342,6 +2517,8 @@
                 "url": "https://api.github.com/repos/symfony/mime/zipball/481b7d6da88922fb1e0d86a943987722b08f3955",
                 "reference": "481b7d6da88922fb1e0d86a943987722b08f3955",
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 "shasum": ""
             },
             "require": {
@@ -2391,10 +2568,14 @@
                 "mime-type"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-04-17T03:29:44+00:00"
 =======
             "time": "2020-03-27T16:56:45+00:00"
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+            "time": "2020-04-17T03:29:44+00:00"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2516,6 +2697,7 @@
         {
             "name": "symfony/polyfill-intl-idn",
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v1.17.0",
             "source": {
                 "type": "git",
@@ -2538,6 +2720,18 @@
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
                 "reference": "47bd6aa45beb1cd7c6a16b7d1810133b728bdfcf",
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-idn.git",
+                "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/3bff59ea7047e925be6b7f2059d60af31bb46d6a",
+                "reference": "3bff59ea7047e925be6b7f2059d60af31bb46d6a",
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 "shasum": ""
             },
             "require": {
@@ -2552,10 +2746,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "1.17-dev"
 =======
                     "dev-master": "1.15-dev"
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+                    "dev-master": "1.17-dev"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 }
             },
             "autoload": {
@@ -2591,6 +2789,9 @@
                 "shim"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
@@ -2605,6 +2806,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fa79b11539418b02fc5e1897267673ba2c19419c",
                 "reference": "fa79b11539418b02fc5e1897267673ba2c19419c",
+<<<<<<< HEAD
 =======
             "time": "2020-03-09T19:04:49+00:00"
         },
@@ -2621,6 +2823,8 @@
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
                 "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 "shasum": ""
             },
             "require": {
@@ -2633,10 +2837,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "1.17-dev"
 =======
                     "dev-master": "1.15-dev"
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+                    "dev-master": "1.17-dev"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 }
             },
             "autoload": {
@@ -2671,6 +2879,7 @@
                 "shim"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-05-12T16:47:27+00:00"
         },
         {
@@ -2701,6 +2910,22 @@
                 "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/37b0976c78b94856543260ce09b460a7bc852747",
                 "reference": "37b0976c78b94856543260ce09b460a7bc852747",
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+            "time": "2020-05-12T16:47:27+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.17.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "f048e612a3905f34931127360bdd2def19a5e582"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/f048e612a3905f34931127360bdd2def19a5e582",
+                "reference": "f048e612a3905f34931127360bdd2def19a5e582",
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 "shasum": ""
             },
             "require": {
@@ -2710,10 +2935,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "1.17-dev"
 =======
                     "dev-master": "1.15-dev"
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+                    "dev-master": "1.17-dev"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
                 }
             },
             "autoload": {
@@ -2747,10 +2976,14 @@
                 "shim"
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2020-05-12T16:47:27+00:00"
 =======
             "time": "2020-02-27T09:26:54+00:00"
 >>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.7
+=======
+            "time": "2020-05-12T16:47:27+00:00"
+>>>>>>> origin/dependabot/composer/PROJECTS/laravel/symfony/http-foundation-4.4.8
         },
         {
             "name": "symfony/polyfill-php73",
